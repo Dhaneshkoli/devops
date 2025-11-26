@@ -26,7 +26,7 @@ Tracking and managing code changes using systems like Git.
 ## 🛠️ 2. Steps I Followed to Complete the Assignment
 
 ### Step 1 – Create Project Folder
-I created a folder named:devops-fat2
+I created a folder named:devops
 
 ### Step 2 – Create Dockerfile
 I wrote a Dockerfile containing Linux commands such as:
@@ -45,16 +45,16 @@ I wrote a Dockerfile containing Linux commands such as:
 - Started Docker Desktop successfully  
 
 ### Step 4 – Build Docker Image
-I built the image using : docker build -t devops-fat2-image
+I built the image using : docker build -t devops-image
 The image successfully executed Linux commands inside the container environment.
 
 ### Step 5 – Initialize Git and Push to GitHub
 I used the following Git commands:
 git init
 git add .
-git commit -m "DevOps FAT2 assignment"
+git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/Dhaneshkoli/devops-fat2.git
+git remote add origin https://github.com/Dhaneshkoli/devops.git
 
 git push -u origin main
 
@@ -62,9 +62,6 @@ git push -u origin main
 ---
 
 ## 🎯 3. What I Learned from This Assignment
-
-### ✔ Linux Commands
-I learned how basic Linux commands work inside a Docker environment.
 
 ### ✔ Docker Concepts
 - How to write a Dockerfile  
