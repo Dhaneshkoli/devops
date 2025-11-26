@@ -28,14 +28,15 @@ Tracking and managing code changes using systems like Git.
 ### Step 1 – Create Project Folder
 I created a folder named:devops
 
-### Step 2 – Create Dockerfile
+### Step 2 – Created a file named Dockerfile (without any extension)
+
 I wrote a Dockerfile containing Linux commands such as:
 - apt-get update  
 - ls  
 - mkdir  
 - pwd  
 - date  
-- dg -h 
+- df -h 
 
 ### Step 3 – Install & Fix Docker Desktop
 - Installed Docker Desktop on Windows  
@@ -45,7 +46,7 @@ I wrote a Dockerfile containing Linux commands such as:
 - Started Docker Desktop successfully  
 
 ### Step 4 – Build Docker Image
-I built the image using : docker build -t devops-image
+I built the image using : ddocker build -t devops-image .
 The image successfully executed Linux commands inside the container environment.
 
 ### Step 5 – Initialize Git and Push to GitHub
